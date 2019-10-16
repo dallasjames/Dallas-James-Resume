@@ -3,6 +3,7 @@ import { Contact } from './Contact';
 import PrevWork from './PrevWork';
 import Skills from './Skills';
 import useDarkMode from './Hooks/useDarkMode';
+import { References } from './References';
 
 function App() {
   const [darkMode, setDarkMode] = useDarkMode();
@@ -21,6 +22,7 @@ function App() {
     <h2>For a job done well and in time.</h2>
     <Skills />
     <PrevWork />
+    <References />
     <Contact />
     </>    
   );
