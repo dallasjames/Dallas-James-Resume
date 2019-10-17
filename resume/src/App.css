@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+}
+
+.dark-mode {
+    background: black;
+    color: white;    
+}
+
+.refcon {
+    display: flex;
+    justify-content: center;
+}
+
+.margin {
+    margin: 4rem;
+}
+
+.prev {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+
+.work {
+    display: flex;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 25rem;
+}
